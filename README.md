@@ -10,3 +10,8 @@ Então optei por realizar ações a nivel de S.O.
 - Como alguns dos Steps estão sendo executado a nivel de SO é necessario nao mexer em nada durante o teste pois vai executar as ações no proprio computador.
 
 - Todos os steps solicitados foram alcançados.
+
+Na api nao encontrei nem uma api gratuita, nem no 4devs que faça validação de CPF, entao adaptei uma biblioteca no python para fazer essa validação dentro do robot framework
+
+![image](https://github.com/BrunoQaSilva/PrimeControl/assets/135796106/b6395f92-cd35-48c5-9b17-cf1aac530310)
+![image](https://github.com/BrunoQaSilva/PrimeControl/assets/135796106/6ac7be8e-0e6b-4d87-8c0e-2bd7784131b8)
