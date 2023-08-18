@@ -27,6 +27,7 @@ Cadastrar o usuário criado na 4devs
     ${resposta}  POST On Session
     ...          alias=4devs
     ...          url=/ferramentas_online.php 
+    ...          data=${body} 
     ...          expected_status=${status_code_desejado}
 
     Log  ${resposta.json()}

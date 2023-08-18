@@ -48,6 +48,8 @@ E altero o Nome do usuario
     Press Backspace Key
     Input Text    ${MiddleName}    ${NOMEFAKE}
     ${NOMEFAKE}       FakerLibrary.Name
+    Press Tab Key  
+    Press Backspace Key  
     Input Text    ${LastName}    ${NOMEFAKE}
     Press Tab Key
     ${PALAVRAFAKE}              FakerLibrary.Word
@@ -127,9 +129,10 @@ E depois preencho o resto dos dados
     ${clicked_option}=    Click Random Option    ${Smoke}   ${AltSmoke}
     Click Element    ${Save1}
     Validar quando save e clicado
-    Scroll Element Into View    ${OrangeHRM}
+    Scroll Element Into View    ${BloodType}
     Click Element    ${BloodType}
     Press Tab Key
+    Scroll Element Into View    ${OrangeHRM}
     ${random_element}=    FakerLibrary.Random Choices    elements=('a', 'b', 'o')
     Log    Chosen element: ${random_element}
     Sleep    3
