@@ -9,7 +9,7 @@ Suite Setup    Configurar TIMEOUT
 
 #Funcionalidade: Login na aplicação web
 
-Cenário: Login bem sucedido
+Cenário: Realizar a alteração de informações do cadastro
     [Tags]        Login
     Dado que o usuário esteja no site 
     Quando clico em My Info
